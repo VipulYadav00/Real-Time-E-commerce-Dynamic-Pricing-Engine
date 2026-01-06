@@ -1,4 +1,4 @@
-AI Dynamic Pricing & Revenue Optimization Engine
+# AI Dynamic Pricing & Revenue Optimization Engine
 
 Project Overview
 
@@ -35,8 +35,7 @@ API-based model deployment
 Interactive dashboard for decision support
 
 # Tech Stack
-
-# Languages & Libraries
+Languages & Libraries
 
 Python
 Pandas, NumPy
