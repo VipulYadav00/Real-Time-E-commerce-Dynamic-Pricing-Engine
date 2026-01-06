@@ -10,7 +10,7 @@ Unlike standard student projects that focus only on prediction accuracy, this sy
 
 The solution mimics a real-world AI product lifecycle, from data engineering and modeling to optimization and deployment.
 
-Business Problem
+# Business Problem
 
 Static pricing strategies fail to account for:
 
@@ -20,13 +20,13 @@ Non-linear customer price sensitivity
 
 As a result, businesses often lose revenue by underpricing or overpricing products.
 
-This project solves that problem by:
+# This project solves that problem by:
 
 Learning how demand reacts to price changes
 Simulating multiple price scenarios
 Recommending the optimal price that maximizes revenue
 
- Key Features
+# Key Features
 
 Dynamic price recommendation based on demand elasticity
 Time-series feature engineering (lags, rolling averages, seasonality)
@@ -34,22 +34,34 @@ Revenue-focused optimization (not accuracy-only modeling)
 API-based model deployment
 Interactive dashboard for decision support
 
-Tech Stack
+# Tech Stack
 
-Languages & Libraries
+# Languages & Libraries
 
 Python
 Pandas, NumPy
 XGBoost, Scikit-learn
 
-Modeling & Analytics
+# Dataset Source & Information
+
+The project uses the Olist E-Commerce Public Dataset, a real-world dataset made available for analytical and machine learning research.
+
+Platform: Brazilian online marketplace
+
+Availability: Publicly released for data science use
+
+Data Size: ~90,000+ orders
+
+Data Type: Relational, multi-table transactional data
+
+# Modeling & Analytics
 
 Regression Modeling
 Time-Series Feature Engineering
 Price Elasticity Simulation
 Prescriptive Analytics
 
-Deployment
+# Deployment
 
 FastAPI (backend)
 Streamlit (frontend)
@@ -83,14 +95,14 @@ ai-dynamic-pricing/
 └── README.md
 
 ```
-Model Performance
+# Model Performance
 
 Model: XGBoost Regressor
 Metric: Mean Absolute Error (MAE)
 Result: Achieved low MAE despite noisy real-world data
 Focus: Revenue maximization over pure prediction accuracy
 
-Limitations & Future Improvements
+# Limitations & Future Improvements
 
 Add online learning or scheduled retraining
 Incorporate A/B testing for real revenue lift measurement
