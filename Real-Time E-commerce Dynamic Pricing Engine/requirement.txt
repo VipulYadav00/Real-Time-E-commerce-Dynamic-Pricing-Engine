@@ -1,0 +1,17 @@
+# Data Processing & Math
+pandas
+numpy
+
+# Machine Learning
+scikit-learn
+xgboost
+joblib
+
+# API & Backend
+fastapi
+uvicorn
+
+# Frontend & Visualization
+streamlit
+matplotlib
+seaborn
